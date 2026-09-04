@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import React from 'react';
 import { 
   LayoutDashboard, BookOpen, CheckSquare, Clock, Calendar, 
-  Bell, Users, BarChart3, User, Settings, X, ChevronDown 
+  Bell, Users, BarChart3, User, Settings, X, ChevronDown ,Bot
 } from 'lucide-react';
 
 export default function Sidebar({ sidebarOpen, setSidebarOpen }) {
@@ -23,6 +23,7 @@ const navigationItems = [
   { name: "Events", href: "/events", icon: Bell },
   { name: "Clubs",href:"/clubs", icon:User},
   { name: "Study Analytics", href: "/analytics", icon: BarChart3 },
+  { name: "AI Assistant", href: "/ai", icon: Bot },
   { name: "Profile", href: "/profile", icon: User },
   { name: "Settings", href: "/settings", icon: Settings },
 ];
