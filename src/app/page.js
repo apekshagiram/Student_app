@@ -1,4 +1,4 @@
-import Welcometopage from "./component/Welcomebutton";
+import Welcometopage from "../legacy/Welcomebutton";
 
 export default function Main() {
   return (
@@ -11,9 +11,6 @@ export default function Main() {
     </div>
   );
 }
-
-
-
 
 
 
